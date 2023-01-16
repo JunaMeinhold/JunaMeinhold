@@ -1,5 +1,5 @@
 ### Hi there 👋
-[![GitHub stats](https://github-readme-stats.vercel.app/api?username=JunaMeinhold)](https://github.com/anuraghazra/github-readme-stats&show_icons=true&theme=tokyonight)
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=JunaMeinhold&count_private=true)
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=JunaMeinhold)](https://github.com/anuraghazra/github-readme-stats&show_icons=true&theme=tokyonight)
 <!--
