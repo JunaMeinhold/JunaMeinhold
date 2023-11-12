@@ -3,7 +3,7 @@
 I'm Juna (she/her, 21, single T^T), a coder from  
 Germany. I mainly code in C#, C++, and C. If you don't see me  
 coding, then usually I'm playing games like Skyrim or Fallout 4 🎮,  
-or just reading mangas or manhwas 📚. I'm almost always free to  
+or just reading manga or manhwa 📚. I'm almost always free to  
 chat, so feel free to message me on Discord (.juna, <a href="https://discord.gg/uZFuRfsPew">or my discord</a>) and use the  
 keyword ":3" (cuz bots 🤖).
 
