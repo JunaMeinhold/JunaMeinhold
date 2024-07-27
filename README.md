@@ -27,6 +27,6 @@ conversations and then normal in others; it always depends on the
 topic. I love helping others, and sometimes I just listen without  
 saying a word or offer empathy to those who need it ❤️.
 
-[![Juna's GitHub stats-Dark](https://github-readme-stats.vercel.app/api?username=JunaMeinhold&show_icons=true&theme=dark#gh-dark-mode-only&include_all_commits=true&count_private=true&role=OWNER,ORGANIZATION_MEMBER,COLLABORATOR)](https://github.com/anuraghazra/github-readme-stats#gh-dark-mode-only)
+[![Juna's GitHub stats-Dark](https://github-readme-stats.vercel.app/api?username=JunaMeinhold&show_icons=true&cache_seconds=1800&theme=dark#gh-dark-mode-only&include_all_commits=true&count_private=true&role=OWNER,ORGANIZATION_MEMBER,COLLABORATOR)](https://github.com/anuraghazra/github-readme-stats#gh-dark-mode-only)
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=JunaMeinhold&show_icons=true&theme=dark#gh-dark-mode-only)](https://github.com/anuraghazra/github-readme-stats#gh-dark-mode-only)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=JunaMeinhold&show_icons=true&cache_seconds=1800&theme=dark#gh-dark-mode-only&include_all_commits=true&count_private=true&role=OWNER,ORGANIZATION_MEMBER,COLLABORATOR)](https://github.com/anuraghazra/github-readme-stats#gh-dark-mode-only)
