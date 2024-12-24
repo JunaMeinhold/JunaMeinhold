@@ -1,6 +1,6 @@
 ## Hey there! 😺
 
-I'm Juna (she/her, 21), a coder from  
+I'm Juna (she/her, 22), a coder from  
 Germany. I mainly code in C#, C++, and C. If you don't see me  
 coding, then usually I'm playing games like Skyrim or Fallout 4 🎮,  
 or just reading manga or manhwa 📚. I'm almost always free to  
