@@ -7,6 +7,4 @@ or just reading manga or manhwa 📚. I'm almost always free to
 chat, so feel free to message me on Discord (.juna, <a href="https://discord.gg/uZFuRfsPew">or my discord</a>) and use the  
 keyword ":3" (cuz bots 🤖).
 
-[![Juna's GitHub stats-Dark](https://github-readme-stats.vercel.app/api?username=JunaMeinhold&show_icons=true&cache_seconds=1800&theme=dark#gh-dark-mode-only&include_all_commits=true&count_private=true&role=OWNER,ORGANIZATION_MEMBER,COLLABORATOR)](https://github.com/anuraghazra/github-readme-stats#gh-dark-mode-only)
-
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=JunaMeinhold&show_icons=true&cache_seconds=1800&theme=dark#gh-dark-mode-only&include_all_commits=true&count_private=true&role=OWNER,ORGANIZATION_MEMBER,COLLABORATOR)](https://github.com/anuraghazra/github-readme-stats#gh-dark-mode-only)
