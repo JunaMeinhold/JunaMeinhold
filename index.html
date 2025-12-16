@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My Homepage</title>
+    <link
+      href="bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/github-repo-cards@1.0.9/app.js"
+      defer
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/github-repo-cards@1.0.9/style.css"
+    />
+    <style>
+      @font-face {
+        font-family: "DrukaatieBurti"; /* Gib der Schriftart einen Namen */
+        src: url("font/drukaatieburti/DrukaatieBurti-Regular.ttf")
+          format("truetype"); /* Passe den Pfad zur Schriftart an */
+        font-weight: normal;
+        font-style: normal;
+      }
+      html {
+        margin: 0;
+      }
+      .bg {
+        background-image: url("img/bg.webp");
+        background-position: center 0px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-color: var(--bs-body-bg);
+        z-index: -1;
+        width: 100vw;
+        max-width: 100vw;
+        height: 100%;
+        position: fixed;
+        overflow: hidden;
+        top: 0;
+      }
+      .vignette {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background: radial-gradient(
+          ellipse at center,
+          rgba(0, 0, 0, 0) 0%,
+          rgba(0, 0, 0, 0) 100%
+        );
+        pointer-events: none;
+        z-index: -1;
+      }
+      /* Schatteneffekt */
+      .shadow-top {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 200px; /* Höhe des Schattens */
+        background: linear-gradient(
+          to bottom,
+          rgba(0, 0, 0, 0.7) 0%,
+          rgba(0, 0, 0, 0) 100%
+        );
+        z-index: -1;
+      }
+      /* Schatteneffekt */
+      .shadow-bottom {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 200px; /* Höhe des Schattens */
+        background: linear-gradient(
+          to top,
+          rgba(0, 0, 0, 0.7) 0%,
+          rgba(0, 0, 0, 0) 100%
+        );
+        z-index: -1;
+      }
+      .main-content {
+        background-color: black;
+        font-size: 1.4rem;
+        line-height: 1.6;
+        letter-spacing: 0.5px;
+      }
+      body {
+        background-color: #0000;
+        font-family: "DrukaatieBurti", sans-serif;
+      }
+      .b-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, 0.1);
+        border: solid rgba(0, 0, 0, 0.15);
+        border-width: 1px 0;
+        box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1),
+          inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
+      }
+      .c-top-left {
+        position: relative;
+        top: 0;
+        left: 0;
+        background-color: white;
+        width: 32px;
+        height: 32px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="bg"></div>
+    <div class="vignette"></div>
+    <div class="shadow-top"></div>
+    <div class="shadow-bottom"></div>
+    <div
+      class="container-fluid shadow-lg rounded container-sm justify-content-center my-5 p-3 mx-auto w-auto main-content"
+    >
+      <div class="border border-5 p-5 rounded border-white">
+        <div class="p-5">
+          <img
+            class="rounded mx-auto d-block"
+            src="https://www.gravatar.com/avatar/5ac8ad12bf0a0576f93f95e407fb08de"
+          />
+        </div>
+
+        <p class="text-muted">
+          Feel free to visit my Github and stalk me (just kidding) other social
+          media
+        </p>
+        <div class="mb-5">
+          <a
+            class="text-muted link-underline link-underline-opacity-0 mx-2 mx-2"
+            href="#"
+          >
+            <img src="img/icon_clyde_white_RGB.svg" width="16" height="16" />
+            .juna
+          </a>
+          <a
+            class="text-muted link-underline link-underline-opacity-0 mx-2"
+            href="https://github.com/JunaMeinhold"
+          >
+            <img width="16" src="img/github-mark-white.svg" />
+          </a>
+        </div>
+        <div class="text-justify pt-3">
+          <p class="mb-5">
+            Hey there! 😺 I'm Juna (she/her, 21), a coder from Germany. I mainly
+            code in C#, C++, and C. If you don't see me coding, then usually I'm
+            playing games like Skyrim or Fallout 4 🎮, or just reading manga or
+            manhwa 📚. I'm almost always free to chat, so feel free to message
+            me on Discord (.juna,
+            <a href="https://discord.gg/uZFuRfsPew">or my discord</a>) and use
+            the keyword ":3" (cuz bots 🤖).
+          </p>
+          <p class="mb-5">
+            I'm working on a very big project, and I would appreciate if someone
+            could help me, because the game engine I'm working on is a big deal
+            and needs tons of care 👩‍💻. Feel free to ask me. I also have a few
+            side projects, like my C/COM interop Code Generator 🚀. So, if
+            you're interested, you know the deal. You can also ask me for code
+            reviews and help with learning coding.
+          </p>
+          <p class="mb-5">
+            If you just want to chat about some things, have problems, or even
+            untreated traumas and you just want to talk, I'm all ears 👂 and
+            want to help. I've had and still have my own struggles, but this
+            might not be the right place to discuss them.
+          </p>
+          <p class="mb-5">
+            If you want to build a friendship 🤝, be prepared for my messy
+            lifestyle and the challenges that I bring with me. Seriously, I have
+            many problems like overthinking and unclear communication sometimes.
+            I have a unique personality – I can be dominant in some
+            conversations and then normal in others; it always depends on the
+            topic. I love helping others, and sometimes I just listen without
+            saying a word or offer empathy to those who need it ❤️.
+          </p>
+        </div>
+
+        <div class="mb-5">
+          <h3>Hobbies</h3>
+          <ul>
+            <li>🖥️ Programming C#, C++, C</li>
+            <li>🤝 Helping others</li>
+            <li>📖 Reading romance manga/manhwa</li>
+            <li>🎮 Playing games (Skyrim, Fallout 4, Cyberpunk 2077)</li>
+            <li>✏️ Drawing, 😸 cuddling my cat, 🎵 listening to music</li>
+          </ul>
+        </div>
+
+        <div class="mb-5">
+          <h3>🖥️ PC-Specs</h3>
+          <ul>
+            <li>Motherboard: MSI MPG Z490 Gaming Plus</li>
+            <li>CPU: i5 11600K</li>
+            <li>Memory: 32GB Corsair Vengeance RGB PRO 8GBx4</li>
+            <li>GPU: Gigabyte Geforce RTX 3070 Gaming OC 8GB</li>
+            <li>Disk 1: NVMe Samsung SSD 970 EVO 1TB</li>
+            <li>Disk 2: NVMe Samsung SSD 970 EVO Plus 1TB</li>
+            <li>PSU: Corsair RM 1000X (1000W)</li>
+          </ul>
+        </div>
+        <div>
+          <h3>My Github Projects</h3>
+          <div class="d-flex flex-wrap">
+            <div class="card m-3" style="width: 18rem">
+              <img
+                class="card-img-top p-2"
+                src="https://raw.githubusercontent.com/JunaMeinhold/HexaEngine/master/icon.png"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">HexaEngine</h5>
+                <a
+                  href="https://github.com/JunaMeinhold/HexaEngine"
+                  class="btn btn-secondary"
+                  >Github repo</a
+                >
+                <p class="card-text">
+                  My Game Engine, my biggest project so far.
+                </p>
+              </div>
+            </div>
+            <div class="card m-3" style="width: 18rem">
+              <img
+                class="card-img-top p-2"
+                src="https://raw.githubusercontent.com/JunaMeinhold/HexaGen/master/icon.png"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">HexaGen</h5>
+                <a
+                  href="https://github.com/JunaMeinhold/HexaGen"
+                  class="btn btn-secondary"
+                  >Github repo</a
+                >
+                <p class="card-text">
+                  My Code-Generator, a side project and indirect dependency of
+                  my engine.
+                </p>
+              </div>
+            </div>
+          </div>
+          <h3>My smaller Github Projects</h3>
+          <div class="d-flex flex-wrap">
+            <div class="card m-3" style="width: 18rem">
+              <div class="card-body">
+                <h5 class="card-title">HexaEngine.ImGui</h5>
+                <a
+                  href="https://github.com/JunaMeinhold/HexaEngine.ImGui"
+                  class="btn btn-secondary"
+                  >repo</a
+                >
+                <p class="card-text">
+                  A standalone .NET wrapper for ImGui (+ImGuizmo, ImNodes,
+                  ImPlot), a side project and dependency of my engine, package
+                  available on nuget.
+                </p>
+              </div>
+            </div>
+            <div class="card m-3" style="width: 18rem">
+              <div class="card-body">
+                <h5 class="card-title">HexaEngine.DirectXTex</h5>
+                <a
+                  href="https://github.com/JunaMeinhold/HexaEngine.DirectXTex"
+                  class="btn btn-secondary"
+                  >repo</a
+                >
+                <p class="card-text">
+                  A standalone .NET wrapper for DirectXTex, a side project and
+                  dependency of my engine, package available on nuget.
+                </p>
+              </div>
+            </div>
+            <div class="card m-3" style="width: 18rem">
+              <div class="card-body">
+                <h5 class="card-title">HexaEngine.SPIRVCross</h5>
+                <a
+                  href="https://github.com/JunaMeinhold/HexaEngine.SPIRVCross"
+                  class="btn btn-secondary"
+                  >repo</a
+                >
+                <p class="card-text">
+                  A standalone .NET wrapper for SPIRVCross, a side project and
+                  dependency of my engine, package available on nuget.
+                </p>
+              </div>
+            </div>
+            <div class="card m-3" style="width: 18rem">
+              <div class="card-body">
+                <h5 class="card-title">HexaEngine.Shaderc</h5>
+                <a
+                  href="https://github.com/JunaMeinhold/HexaEngine.Shaderc"
+                  class="btn btn-secondary"
+                  >repo</a
+                >
+                <p class="card-text">
+                  A standalone .NET wrapper for Shaderc, a side project and
+                  dependency of my engine, package available on nuget.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bg-dark">
+      <div class="b-divider bg-dark"></div>
+      <div class="container bg-dark">
+        <footer
+          class="d-flex flex-wrap justify-content-between align-items-center py-3 mt-4 border-top"
+        >
+          <div class="col-md-4 d-flex align-items-center">
+            <a
+              href="/"
+              class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1"
+            >
+              <svg class="bi" width="30" height="24">
+                <use xlink:href="#bootstrap"></use>
+              </svg>
+            </a>
+            <span class="mb-3 mb-md-0 text-muted"
+              >© 2023 Juna Meinhold
+              <a href="https://github.com/JunaMeinhold/JunaMeinhold"
+                >open-source repo</a
+              ></span
+            >
+          </div>
+
+          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3">
+              <a
+                class="bg-dark text-muted link-underline link-underline-opacity-0 mx-2 mx-2"
+                href="#"
+              >
+                <img
+                  src="img/icon_clyde_white_RGB.svg"
+                  width="16"
+                  height="16"
+                />
+                .juna
+              </a>
+            </li>
+            <li class="ms-3">
+              <a
+                class="bg-dark text-muted link-underline link-underline-opacity-0 mx-2"
+                href="https://github.com/JunaMeinhold"
+              >
+                <img width="16" src="img/github-mark-white.svg" />
+              </a>
+            </li>
+            <li class="ms-3">
+              <a
+                class="bg-dark text-muted link-underline link-underline-opacity-0 mx-2"
+                href="https://steamcommunity.com/profiles/76561198263633207"
+              >
+                <img width="16" src="img/Steam_icon_logo.svg" />
+              </a>
+            </li>
+            <li class="ms-3">
+              <a
+                class="bg-dark text-muted link-underline link-underline-opacity-0 mx-2"
+                href="https://www.youtube.com/@juna2002/"
+              >
+                <img width="16" src="img/YouTube_full-color_icon_(2017).svg" />
+              </a>
+            </li>
+            <li class="ms-3">
+              <a
+                class="bg-dark text-muted link-underline link-underline-opacity-0 mx-2"
+                href="https://www.twitch.tv/juna082002"
+              >
+                <img width="16" src="img/twitch-icon.svg" />
+              </a>
+            </li>
+            <li class="ms-3">
+              <a
+                class="bg-dark text-muted link-underline link-underline-opacity-0 mx-2"
+                href="#"
+              >
+                <img width="16" src="img/reddit-logo-2436.svg" />
+              </a>
+            </li>
+            <li class="ms-3">
+              <a
+                class="bg-dark text-muted link-underline link-underline-opacity-0 mx-2"
+                href="#"
+              >
+                <img width="16" src="img/X_logo_2023.svg" />
+              </a>
+            </li>
+          </ul>
+        </footer>
+      </div>
+    </div>
+    <script
+      src="bootstrap/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    ></script>
+    <script>
+      // Adjust the parallax effect by changing the factor
+      const parallaxFactor = 0.2; // Adjust as needed
+
+      // Update the background position on scroll
+      window.addEventListener("scroll", () => {
+        const scrollTop = window.pageYOffset;
+        const backgroundPosition = `center ${-scrollTop * parallaxFactor}px`;
+        document.querySelector(".bg").style.backgroundPosition =
+          backgroundPosition;
+
+        const vignetteOpacity = Math.min(scrollTop / 300, 0.7); // Adjust 300 as needed
+        document.querySelector(
+          ".vignette"
+        ).style.background = `radial-gradient(ellipse at center, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, ${vignetteOpacity}) 100%)`;
+      });
+    </script>
+  </body>
+</html>
